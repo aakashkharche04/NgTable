@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\NgTable\NgTable\bin\NgTable.dll.config
+c:\users\lenovo\documents\visual studio 2013\Projects\NgTable\NgTable\bin\NgTable.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\NgTable\NgTable\bin\NgTable.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\NgTable\NgTable\obj\Debug\NgTable.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\NgTable\NgTable\obj\Debug\NgTable.dll
+c:\users\lenovo\documents\visual studio 2013\Projects\NgTable\NgTable\obj\Debug\NgTable.pdb

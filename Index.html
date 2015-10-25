@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="tableDirective">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ng Table</title>
+    <link rel="stylesheet" href="/Content/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Content/Bootstrap/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="/Content/Bootstrap/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="/Content/ngTable/ng-table.min.css" />
+
+</head>
+<body>
+
+    <div class="container" ng-controller="IndexController as indexCon">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <table ng-table="indexCon.tableParams" class="table">
+                    <tr ng-repeat="user in $data">
+                        <td data-title="'Name'" header-title="'Name'" filter="{ name: 'text'}" sortable="'name'">{{user.name}}</td>
+                        <td data-title="'Age'" header-title="'Age'" filter="{ age: 'number'}" sortable="'age'">{{user.age}}</td>
+                    </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Scripts/App/Jquery/jquery-2.1.0.js"></script>
+    <script src="/Scripts/App/Angular/angular.min.js"></script>
+    <script src="/Scripts/App/Angular/angular-ui-router.js"></script>
+    <script src="/Scripts/App/Bootstrap/bootstrap.min.js"></script>
+    <script src="/Scripts/App/Angular/ui-bootstrap-tpls-0.10.0.js"></script>
+    <script src="/Scripts/App/ngTable/ng-table.min.js"></script>
+
+    <script src="/Scripts/App/Configuration/app.js"></script>
+    <script src="/Scripts/App/Configuration/routing.js"></script>
+    <script src="/Scripts/Controllers/IndexController.js"></script>
+    <script src="/Scripts/Services/MockData.js"></script>
+
+</body>
+</html>
